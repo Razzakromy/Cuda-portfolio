@@ -1,0 +1,152 @@
+@media only screen and (max-width: 1440px) {
+    header {
+        height: 65vh;
+    }
+
+.hero_text_box{
+    width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .row {
+        margin: 0 1.5rem;
+    }
+
+    header {
+        height: 55vh;
+    }
+
+    .main_nav {
+        display: none;
+    }
+
+    .mobile_menu{
+        display: block;
+    }
+
+    .hero_text_box {
+        width: 100%;
+    }
+
+    html {
+        font-size: 54%;
+    }
+
+    .client_photo {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .client_review {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .contact_section form {
+        margin-top: 5rem;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    .hero_text_box {
+        width: 95%;
+    }
+
+    .little_description {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    header {
+        height: 65vh;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .span_1_of_4 {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    header {
+        height: 80vh;
+    }
+
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4) {
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .portfolio_filter button {
+        padding: 1rem 1rem;
+    }
+
+    .client_review p {
+        font-size: 1.7rem;
+    }
+
+    header {
+        height: 60vh;
+    }
+}
